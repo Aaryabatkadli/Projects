@@ -1,0 +1,12 @@
+streamlit
+faiss-cpu
+chromadb
+ollama
+pytesseract
+pdf2image
+PyPDF2
+kaggle
+pytest
+numpy
+loguru
+sentence-transformers

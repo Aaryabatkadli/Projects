@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual env
+venv/
+.venv/
+
+# Data & DB
+data/
+storage/chroma/
+
+# Logs
+logs/
+
+# Env
+.env
+
+# Test reports
+tests/report.html
+
+# OS
+.DS_Store
+Thumbs.db
