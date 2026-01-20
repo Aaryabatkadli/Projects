@@ -1,5 +1,0 @@
-streamlit
-PyPDF2
-faiss-cpu
-openai
-numpy
