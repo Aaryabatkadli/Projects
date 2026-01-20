@@ -94,9 +94,6 @@ Create `.env`
 OLLAMA_MODEL=llama3
 OLLAMA_BASE_URL=http://localhost:11434
 
-KAGGLE_USERNAME=your_username
-KAGGLE_KEY=your_api_key
-
 DATA_DIR=data/resumes
 CHROMA_DIR=storage/chroma
 LOG_DIR=logs
