@@ -2,22 +2,13 @@
 Streamlit UI for AI Resume Screener (HR-facing).
 """
 
-# ------------------------------------------------------------
-# Fix import path (IMPORTANT)
-# ------------------------------------------------------------
 import sys
 import os
-
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
-
-# ------------------------------------------------------------
-# Imports
-# ------------------------------------------------------------
 import streamlit as st
 from core.vector_store import get_resumes_collection, search_resumes
 from core.rag_engine import rag_reasoning
 from core.ranker import rank_candidates
-
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
 # ------------------------------------------------------------
 # Page config
@@ -28,11 +19,8 @@ st.set_page_config(
     layout="wide"
 )
 
-st.title("📄 AI Resume Screener for HR Teams")
+st.title("📄 AI Resume Screener")
 
-# ------------------------------------------------------------
-# Load persistent collection
-# ------------------------------------------------------------
 collection = get_resumes_collection()
 
 # ------------------------------------------------------------
