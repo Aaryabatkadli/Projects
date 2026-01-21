@@ -6,8 +6,7 @@ __pycache__/
 venv/
 .venv/
 
-# Data & DB
-data/
+# DB
 storage/chroma/
 
 # Logs
